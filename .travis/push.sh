@@ -11,7 +11,7 @@ commit_website_files() {
 
 upload_files() {
   git remote remove origin
-  git remote add origin https://${GH_TOKEN}@github.com/hackesta/youtube-template.git
+  git remote add origin https://${GH_TOKEN}@github.com/hackesta/youtuber-template.git
   git push --quiet origin HEAD:master > /dev/null 2>&1
 }
 

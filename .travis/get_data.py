@@ -4,10 +4,7 @@ import os
 import json
 import simplejson
 
-def user_repos():
-    url = "https://api.github.com/users/haideralipunjabi/repos"
-    response = req.get(url, auth=(os.environ.get('GITHUB_USERNAME'), os.environ.get('GH_TOKEN')))
-    print(response.text,file=open('data/user_repos.json',"w"))
+
 
 def youtube_videos():
     YOUTUBE_API_URL = 'https://www.googleapis.com/youtube/v3/search?order=date&maxResults=50&part=snpippet&channelId=%s&key=' + os.environ.get('YOUTUBE_API_KEY')
@@ -25,4 +22,6 @@ def youtube_videos():
             videos.append(videoData)
     data['videos'] = videos
 
-    print(json.dumps(data), file=open('data/youtube_videos','w'))
+    print(json.dumps(data), file=open('data/youtube_videos.json','w'))
+
+youtube_videos()
