@@ -19,7 +19,6 @@ def youtube_videos():
             videoData['video_id'] = video['id']['videoId']
             videoData['title'] = video['snippet']['title']
             videoData['thumbnail'] = video['snippet']['thumbnails']['high']['url']
-            videoData['download_url'] = self.download_url(video['id']['videoId'])
             videos.append(videoData)
     data['videos'] = videos
 
