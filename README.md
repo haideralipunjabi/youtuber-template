@@ -1,4 +1,4 @@
-# Youtuber-Template  
+# Youtuber-Template  ![Travis CI Build](https://travis-ci.org/HackeSta/youtuber-template.svg?branch=master)
 A web template for Youtubers.
 
 ## How to get videos?  
@@ -10,9 +10,9 @@ All code required for getting video data from Youtube using [Travis](https://tra
 
 | Name | Value |  
 | ---- | ----- |
-| ** channelID ** | * Youtube Channel ID * |
-| ** GH_TOKEN ** | * Github Personal Account Token with Repo Scope * |
-| ** YOUTUBE_API_KEY ** | * [Youtube Data API Server Key](https://developers.google.com/youtube/registering_an_application#Create_API_Keys) * |  
+| **channelID** | *Youtube Channel ID* |
+| **GH_TOKEN** | *Github Personal Account Token with Repo Scope* |
+| **YOUTUBE_API_KEY** | *[Youtube Data API Server Key](https://developers.google.com/youtube/registering_an_application#Create_API_Keys)* |  
 
 3. Enable daily cron job for your repo
 4. Start the build
