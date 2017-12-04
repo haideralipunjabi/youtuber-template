@@ -12,7 +12,6 @@ def youtube_videos():
     jsdata = simplejson.loads(response.text)
     data = {}
     videos = []
-    print(jsdata)
     for video in jsdata['items']:
         if video['id']['kind'] == 'youtube#video':
             videoData = {}
