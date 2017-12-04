@@ -1,6 +1,6 @@
 # Youtuber-Template  ![Travis CI Build](https://travis-ci.org/HackeSta/youtuber-template.svg?branch=master)
 A web template for Youtubers.  
-[DEMO SITE](https://hackesta.github.io/youtuber-template)
+[DEMO SITE](https://hackesta.github.io/youtuber-template/index.html)
 ## How to get videos?  
 The ` video.html ` page gets Youtube Video data from ` data/youtube_videos.json `, which can be generated using the following ways:   
 ### Using [Travis CI](https://travis-ci.org/):  
