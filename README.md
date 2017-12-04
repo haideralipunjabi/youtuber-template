@@ -1,6 +1,14 @@
 # Youtuber-Template  ![Travis CI Build](https://travis-ci.org/HackeSta/youtuber-template.svg?branch=master)
 A web template for Youtubers.  
+<a href="https://bulma.io">
+  <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+</a>  
+## Demo:
+
 [DEMO SITE](https://hackesta.github.io/youtuber-template)
+### Screenshots:
+![SS index.html](https://i.imgur.com/Wtgrf5q.png)
+![SS videos.html](https://i.imgur.com/LupfbUP.png)
 ## How to get videos?  
 The ` video.html ` page gets Youtube Video data from ` data/youtube_videos.json `, which can be generated using the following ways:   
 ### Using [Travis CI](https://travis-ci.org/):  
@@ -19,3 +27,8 @@ All code required for getting video data from Youtube using [Travis](https://tra
 
 ## Further Designing  
 If you want to add more pages or redesign the website, you can use [Bulma](https://bulma.io/)
+
+## Credits:
+* [Bulma](https://bulma.io) - Modern CSS framework based on Flexbox
+* [BulmaJS](https://github.com/VizuaaLOG/BulmaJS) - Unofficial javascript extension to the awesome Bulma CSS framework  
+* [Bulma Templates - Cover](https://github.com/dansup/bulma-templates) - Free flexbox templates built with the bulma css framework (Used for ` index.html `)
