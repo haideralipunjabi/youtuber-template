@@ -5,7 +5,7 @@ A web template for Youtubers.
 </a>  
 ## Demo:
 
-[DEMO SITE](https://hackesta.github.io/youtuber-template)
+[DEMO SITE](https://hackesta.github.io/youtuber-template/index.html)
 ### Screenshots:
 ![SS index.html](https://i.imgur.com/Wtgrf5q.png)
 ![SS videos.html](https://i.imgur.com/LupfbUP.png)
